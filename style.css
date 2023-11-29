@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display+SC&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+/* Utility */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --primary-color:#563635;
+  --secondary-color:#c3a27f;
+}
+body {
+
+    background-color: var(--primary-color);
+    font-family: 'Roboto Flex', sans-serif;
+    color: var(--secondary-color);
+}
+
+/* Qoute Generotor Styling */
+.card {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.card-title {
+    font-family: 'Dancing Script', cursive;
+}
+
+.card-title {
+    font-size: 44px;
+    margin-bottom: 20px; 
+    color: var(--primary-color);
+    border-radius: 8px;
+}
+
+.card-text {
+    font-family: 'Sen', sans-serif;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+#author{
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #FFFFFF ;
+    color: var(--secondary-color)!important;
+    border: 1px solid var(--secondary-color);
+}
+
+
+
+
+/* To-Do list styling */
+.heading{
+    font-size: 1.5rem;
+    font-weight:bolder;
+    color: var(--primary-color);
+    font-family: 'Dancing Script', cursive;
+}
+.container {
+    background-color: #FFFFFF;
+    width: 800px;
+    padding: 2px 0 5px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.table > :not(caption) > * > *{
+    color: var(--secondary-color);
+    
+}
+
+.form-control {
+    border-radius: 8px;
+    color: var(--secondary-color) !important;
+}
+
+.check-box {
+    height: 24px;
+    width: 24px;
+    background-color: var(--secondary-color);
+    border-radius: 8px !important;
+
+
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
