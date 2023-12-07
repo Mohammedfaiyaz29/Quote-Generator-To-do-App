@@ -13,7 +13,7 @@ body {
   }
   
   /* Tablet styles */
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
     body {
       font-size: 18px;
     }
@@ -26,37 +26,39 @@ body {
       font-size: 2rem;
     }
   
-    /* Add more tablet-specific styles as needed */
+ 
   }
   
   /* Desktop styles */
-  @media (min-width: 992px) {
+  @media (max-width: 992px) {
     body {
       font-size: 20px;
     }
   
     .container {
-      max-width: 960px;
+      max-width: 700px;
       margin: 0 auto;
+      width: auto;
     }
   
-    /* Add more desktop-specific styles as needed */
   }
   
   /* Additional mobile styles */
-  @media only screen and (max-width: 480px) {
+  @media (max-width: 480px) {
     body {
       font-size: 14px;
     }
   
     .container {
       padding: 5px;
+      width: auto;
     }
   
     .heading {
       font-size: 1.2rem;
     }
   
-    /* Add more specific styles for smaller screens as needed */
+ 
   }
   
+
